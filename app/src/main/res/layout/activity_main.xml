@@ -28,7 +28,7 @@
             android:layout_height="80dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
-            android:onClick="button1Click"
+            android:onClick="digitButtonClick"
             android:text="1"
             android:textSize="24sp" />
 
@@ -38,6 +38,7 @@
             android:layout_height="80dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
+            android:onClick="digitButtonClick"
             android:textSize="24sp"
             android:text="2" />
 
@@ -47,6 +48,7 @@
             android:layout_height="80dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
+            android:onClick="digitButtonClick"
             android:textSize="24sp"
             android:text="3" />
 
@@ -55,6 +57,7 @@
             android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_weight="1"
+            android:onClick="operatorButtonClick"
             android:textSize="24sp"
             android:text="+" />
     </LinearLayout>
@@ -70,6 +73,7 @@
             android:layout_height="80dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
+            android:onClick="digitButtonClick"
             android:textSize="24sp"
             android:text="4" />
 
@@ -79,6 +83,7 @@
             android:layout_height="80dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
+            android:onClick="digitButtonClick"
             android:textSize="24sp"
             android:text="5" />
 
@@ -88,6 +93,7 @@
             android:layout_height="80dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
+            android:onClick="digitButtonClick"
             android:textSize="24sp"
             android:text="6" />
 
@@ -96,6 +102,7 @@
             android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_weight="1"
+            android:onClick="operatorButtonClick"
             android:textSize="34sp"
             android:text="-" />
 
@@ -112,6 +119,7 @@
             android:layout_height="80dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
+            android:onClick="digitButtonClick"
             android:textSize="24sp"
             android:text="7" />
 
@@ -121,6 +129,7 @@
             android:layout_height="80dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
+            android:onClick="digitButtonClick"
             android:textSize="24sp"
             android:text="8" />
 
@@ -129,15 +138,17 @@
             android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_weight="1"
+            android:onClick="digitButtonClick"
             android:layout_marginEnd="16dp"
             android:textSize="24sp"
             android:text="9" />
 
         <Button
-            android:id="@+id/btnSubtract"
+            android:id="@+id/btnMultiply"
             android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_weight="1"
+            android:onClick="operatorButtonClick"
             android:textSize="16sp"
             android:text="x" />
 
@@ -155,6 +166,7 @@
             android:layout_height="80dp"
             android:layout_marginEnd="16dp"
             android:layout_weight="2.2"
+            android:onClick="digitButtonClick"
             android:textSize="24sp"
             android:text="0" />
 
@@ -172,6 +184,7 @@
             android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_weight="1"
+            android:onClick="operatorButtonClick"
             android:textSize="24sp"
             android:text="=" />
     </LinearLayout>
